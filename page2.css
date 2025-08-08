@@ -1,0 +1,52 @@
+body {
+    background-color: #fff0f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.dialog {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.dialog button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #ff4b5c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.content img {
+    max-width: 300px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.content p {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#surpriseBtn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #ff4b5c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.centered-content {
+    text-align: center;
+}
